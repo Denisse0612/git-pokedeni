@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+  font-family: 'Indie Flower', cursive;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+html {
+  background-image: url('https://wallpapercave.com/wp/wp6029338.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+} 
+ 
+  .saludo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .saludo__titulo {
+    width: 100vh;
+    height: auto; 
+    display: block; 
+    border-radius: 20px;
+    margin: 20px;
+  }
+  
+  .saludo__intro {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .saludo__p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .saludo__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+ 
+  .saludo__input {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: 5px solid #f00707;
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold
+  }
+ 
+  .saludo__btn {
+    padding: 10px 15px;
+    background-color: #f00707;
+    color: #fff;
+    border: black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  body {   
+    margin: auto;
+    height: 100vh;
+    width: 100vh; 
+  }

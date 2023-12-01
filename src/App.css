@@ -1,0 +1,7 @@
+img {
+    width: 100%;
+    max-width: 300px;
+}
+input, button, select {
+    font-size: 1.4rem;
+}

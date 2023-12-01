@@ -1,0 +1,118 @@
+
+
+.intro {
+    margin: 20px auto;
+    padding: 20px;    
+    border: none;
+    box-shadow: 0 0 10px rgba(201, 24, 24, 0.1);
+    display: grid;
+    
+  }
+  
+  .intro__p {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .intro__name {
+    font-weight: bold;
+    color: #f00707; 
+    text-transform: uppercase;
+  }
+
+  .intro__poke {
+    display: flex;
+    justify-content: space-around;  
+  }
+  
+  .intro__form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .intro__input {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border: 5px solid #f00707;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    
+  }
+  
+  .intro__btn {
+    padding: 10px 15px;
+    background-color: #f00707;
+    color: #fff;
+    border: 5px solid #f00707;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+  .intro > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  select {
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #f00707;
+    cursor: pointer;
+    height: 66px;
+  }
+
+  .card__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+   
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    user-select: none;
+  }
+  
+  .pagination li:hover {
+    background-color: #eee;
+  }
+  
+  .active {
+    background-color: #ff6a00;
+    color: #fff;
+    border: 1px solid #ff7b00;
+  }
+  
+  
