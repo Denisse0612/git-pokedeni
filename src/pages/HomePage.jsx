@@ -20,7 +20,7 @@ const handleSubmit = e => {
 
   return (
     <div className="saludo">
-        <img  className="saludo__titulo" src="/public/Pokedex_logo.png"/>
+        <img  className="saludo__titulo" src="/public/Pokedex_logo.png" alt="Pokedex_logo"/>
         <h1 className="saludo__intro">HOLA ENTRENADOR❗</h1>
         <p className="saludo__p">Para poder empezar, ingresa tu nombre 🔑</p>
         <form className="saludo__form" onSubmit={handleSubmit}>
